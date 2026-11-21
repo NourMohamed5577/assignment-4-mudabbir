@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>مدبّر - إدارة أموالك بذكاء</title>
+  <!-- خط القاهرة (Cairo) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- أيقونات FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- ملف التنسيق -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="app-container">
+
+    <!-- 1. بطاقة الترويسة (Header) -->
+    <header class="card header-card">
+      <div class="brand-section">
+        <div class="brand-logo">
+          <i class="fa-solid fa-coins"></i>
+        </div>
+        <div class="brand-text">
+          <h1>مدبّر</h1>
+          <p>إدارة أموالك بذكاء</p>
+        </div>
+      </div>
+
+      <div class="user-controls">
+        <div class="profile-avatar">
+          <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&auto=format&fit=crop&q=80" alt="صورة المستخدم">
+        </div>
+        <div class="action-buttons">
+          <button class="icon-btn" aria-label="الإشعارات">
+            <i class="fa-regular fa-bell"></i>
+            <span class="badge">2</span>
+          </button>
+          <button class="icon-btn" aria-label="بحث">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+
+      <div class="status-bar">
+        <span class="status-dot"></span>
+        <span>متصل</span>
+      </div>
+    </header>
+
+    <!-- 2. بطاقات الملخص المالي -->
+    <section class="summary-cards">
+      <div class="card stat-card">
+        <span class="stat-title">الرصيد الحالي</span>
+        <div class="stat-amount">8,450 جنية</div>
+        <div class="stat-trend positive">
+          <span>2.5%+</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </div>
+
+      <div class="card stat-card">
+        <span class="stat-title">الدخل</span>
+        <div class="stat-amount">15,000 جنية</div>
+        <div class="stat-trend positive">
+          <span>8.2%+</span>
+          <i class="fa-solid fa-arrow-up"></i>
+        </div>
+      </div>
+
+      <div class="card stat-card">
+        <span class="stat-title">المصروفات</span>
+        <div class="stat-amount">10,000 جنية</div>
+        <div class="stat-trend negative">
+          <span>1.2%-</span>
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. بطاقة الأنشطة الحديثة -->
